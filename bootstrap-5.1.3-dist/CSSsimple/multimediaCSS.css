@@ -1,0 +1,38 @@
+nav#navBar a#pageMultimedia{
+    background-color: #455261;
+}
+div#containerSrc{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 4%;
+}
+div#imgContainer{
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 5px solid rgb(0, 204, 255);
+    border-radius: 15%;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+}
+div#imgContainer img{
+    width: 430px;
+    height:350px;
+}
+div#containerVideo{
+    margin-left: 450px;
+    margin-right: 5px;
+    border: 5px solid rgb(0, 204, 255);
+    border-radius: 15%;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+}
+div#containerVideo video{
+    width: 430px;
+    height:350px; 
+}
+iframe{
+    width: 100%;
+    height:520px;
+}

@@ -1,0 +1,26 @@
+nav#navBar a#pageList{
+    background-color: #455261;
+}
+ol{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-flow: wrap;
+}
+ol li{
+    width: auto;
+    height: 30px;
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+ul{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+ul li{
+    width: auto;
+    height: 30px;
+    background-color: chartreuse;
+    flex-grow: 1;
+}

@@ -1,0 +1,19 @@
+nav#navBar a#pageTables{
+    background-color: #455261;
+}
+table{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+tr#rowTitle{
+    font-size: 150%;
+    color: rgb(245, 11, 11);
+    background-color: rgba(255, 255, 255, 0.397);
+}
+tr#cars{
+    font-size: 120%;
+    color: white;
+    background-color: rgba(243, 240, 33, 0.445);
+}

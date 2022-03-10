@@ -1,0 +1,36 @@
+nav#navBar a#pageIndex{
+    background-color: #455261;
+}
+section{
+    background-color: #788fa8;
+    display: inline-flex;
+}
+section#section1{
+    width: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+section#section1 h2{
+    font-size: 200%;
+}
+section#section1 p{
+    font-size: 110%;
+}
+section#section1:hover{
+    background-color: #677c92;
+}
+section#section2{
+    width: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    float: right;
+}
+section#section2 h2{
+    font-size: 200%;
+}
+section#section2 p{
+    font-size: 110%;
+}
+section#section2:hover{
+    background-color: #677c92;
+}

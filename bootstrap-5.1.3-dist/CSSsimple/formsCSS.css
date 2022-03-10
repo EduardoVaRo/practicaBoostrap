@@ -1,0 +1,57 @@
+nav#navBar a#pageForms{
+    background-color: #455261;
+}
+div.containerForm{
+    background-color: #2e363f;
+    color: white;
+}
+form.contentForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+label#labelName{ 
+    grid-area: 1 / 1 / 2 / 2;
+    padding-left: 5px; 
+}
+input#nameUser{ 
+    grid-area: 1 / 2 / 2 / 3;
+}
+label#labelSurname{ 
+    grid-area: 1 / 3 / 2 / 4;
+    padding-left: 5px;  
+}
+input#surnameUser{ 
+    grid-area: 1 / 4 / 2 / 5; 
+}
+label#labelEmail{ 
+    grid-area: 2 / 1 / 3 / 2;
+    padding-left: 5px;  
+}
+input#emailUser{ 
+    grid-area: 2 / 2 / 3 / 3; 
+}
+label#labelPassw{
+    grid-area: 2 / 3 / 3 / 4;
+    padding-left: 5px; 
+}
+input#passwordUser{
+    grid-area: 2 / 4 / 3 / 5; 
+}
+label#labelTlf{ 
+    grid-area: 3 / 1 / 4 / 2;
+    padding-left: 5px;  
+}
+input#mobileUser{ 
+    grid-area: 3 / 2 / 4 / 3; 
+}
+label#labelGender{ 
+    grid-area: 3 / 3 / 4 / 4;
+    padding-left: 5px;  
+}  
+div#optGender{
+    grid-area: 3 / 4 / 4 / 5; 
+}
+  
