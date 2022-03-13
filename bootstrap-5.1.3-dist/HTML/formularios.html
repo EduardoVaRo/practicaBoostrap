@@ -10,43 +10,53 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-    <header>
-        <div>
-            <nav id="navBar">
-                <a href="index.html" id="pageIndex"><h3>Inicio</h3></a>
-                <a href="tablas.html" id="pageTables"><h3>Tablas</h3></a>
-                <a href="formularios.html" id="pageForms"><h3>Formulario</h3></a>
-                <a href="multimedia.html" id="pageMultimedia"><h3>Multimedia</h3></a>
-                <a href="lista.html" id="pageList"><h3>Lista</h3></a>
-            </nav>  
-        </div>
+    <header class="container-fluid">
+        <nav class="row" id="navBar">
+            <a class="col" href="index.html" id="pageIndex"><h3>Inicio</h3></a>
+            <a class="col" href="tablas.html" id="pageTables"><h3>Tablas</h3></a>
+            <a class="col" href="formularios.html" id="pageForms"><h3>Formulario</h3></a>
+            <a class="col" href="multimedia.html" id="pageMultimedia"><h3>Multimedia</h3></a>
+            <a class="col" href="lista.html" id="pageList"><h3>Lista</h3></a>
+        </nav>
     </header>
     <main>
-        <div class="containerForm">
-            <form class="contentForm" method="POST" action="../ws/createUser.php">
-                <label id="labelName">Nombre: </label>
-                <input type="text" id="nameUser" name="nameUser"><br><br>
-                <label id="labelSurname">Apellidos: </label>
-                <input type="text" id="surnameUser" name="surnameUser"><br><br>
-                <label id="labelEmail">Email: </label>
-                <input type="email" id="emailUser" name="emailUser"><br><br>
-                <label id="labelPassw">Contraseña: </label>
-                <input type="password" id="passwordUser" name="password"><br><br>
-                <label id="labelTlf">Telefono</label>
-                <input type="tel" id="mobileUser" name="mobileUser"><br><br>
-                <label id="labelGender">Sexo</label>
-                <div id="optGender">
-                    <input type="radio" id="genderMale" name="genderRadioSelector" value="male">
-                    <label for="genderMale" id="labelGenderM">Hombre</label>
-                    <input type="radio" id="genderFemale" name="genderRadioSelector" value="female">
-                    <label for="genderFemale" id="labelGenderF">Mujer</label><br><br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <label id="labelName">Nombre: </label>
+                            <input type="text" id="nameUser" name="nameUser">
+                            <label id="labelSurname">Apellidos: </label>
+                            <input type="text" id="surnameUser" name="surnameUser">
+                        </div>
+                        <div class="row">
+                            <label id="labelEmail">Email: </label>
+                            <input type="email" id="emailUser" name="emailUser">
+                            <label id="labelPassw">Contraseña: </label>
+                            <input type="password" id="passwordUser" name="password">
+                        </div>
+                        <div class="row">
+                            <label id="labelTlf">Telefono</label>
+                            <input type="tel" id="mobileUser" name="mobileUser">
+                            <label id="labelGender">Sexo</label>
+                            <div id="optGender">
+                                <input type="radio" id="genderMale" name="genderRadioSelector" value="male">
+                                <label for="genderMale" id="labelGenderM">Hombre</label>
+                                <input type="radio" id="genderFemale" name="genderRadioSelector" value="female">
+                                <label for="genderFemale" id="labelGenderF">Mujer</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary"type="submit" >Enviar</button>
+                    </div>
                 </div>
-                <button type="submit" >Enviar</button>
-            </form>
+            </div>
         </div>
     </main>
-    <footer>
-        <a href="https://www.google.es/"><h2>GOOGLE</h2></a>
+    <footer class="container-fluid">
+        <div class="row">
+            <a class="col" href="https://www.google.es/"><h2>GOOGLE</h2></a>
+        </div>
     </footer>
     <script src="../js/bootstrap.bundle.js"></script>
 </body>

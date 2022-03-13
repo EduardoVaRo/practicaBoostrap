@@ -6,33 +6,35 @@
     <title>Inicio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../CSSsimple/main.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../CSSsimple/indexCSS.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSSsimple/formsCSS.css'>
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-    <header class="container-fluid">
-        <div>
-            <nav id="navBar">
-                <a href="index.html" id="pageIndex"><h3>Inicio</h3></a>
-                <a href="tablas.html" id="pageTables"><h3>Tablas</h3></a>
-                <a href="formularios.html" id="pageForms"><h3>Formulario</h3></a>
-                <a href="multimedia.html" id="pageMultimedia"><h3>Multimedia</h3></a>
-                <a href="lista.html" id="pageList"><h3>Lista</h3></a>
-            </nav>
-        </div>
+    <header class="container-fluid"> <!--container que alverga el navbar-->
+        <nav class="row" id="navBar">
+            <a class="col" href="index.html" id="pageIndex"><h3>Inicio</h3></a>
+            <a class="col" href="tablas.html" id="pageTables"><h3>Tablas</h3></a>
+            <a class="col" href="formularios.html" id="pageForms"><h3>Formulario</h3></a>
+            <a class="col" href="multimedia.html" id="pageMultimedia"><h3>Multimedia</h3></a>
+            <a class="col" href="lista.html" id="pageList"><h3>Lista</h3></a>
+        </nav>
     </header>
-    <main>
-        <section id="section1">
-            <h2>Hic unde error nesciunt et tempore alias quasi molestiae minima.</h2>
-            <p>Quo autem illo eius. Qui esse blanditiis quia. Ducimus nulla soluta quia iusto vel dolorem alias. Vel dolores dolorum ipsam nam eum.<br>Dicta voluptatum aut quidem iure non. Est labore consequuntur aliquam rerum adipisci eos vero dolorem.<br>Totam reiciendis rerum qui aut omnis sed fuga sit assumenda. Sint vero delectus nulla rem ut facilis reprehenderit aperiam. Quia ut at porro laborum eaque qui minima optio dolores. Et adipisci molestiae voluptatem in molestiae. Sed qui ea architecto. Saepe ut recusandae.</p>
-        </section>
-        <section id="section2">
-            <h2>Quam amet dignissimos omnis.</h2>
-            <p>Velit quia adipisci et ut aut aliquam et. Aliquam eius aut iusto ipsum. Omnis laboriosam beatae et est rerum aperiam cupiditate.<br><br>Aspernatur quaerat amet qui nisi voluptas id animi corrupti itaque. Assumenda enim soluta suscipit ea ut fugiat. Dolor enim asperiores reiciendis occaecati quia deserunt dolores. Est deserunt voluptatibus nam. Impedit voluptatem vero corrupti minima dignissimos soluta. Consequuntur iusto error excepturi voluptatem voluptas ex in quis deleniti.></p>
-        </section>
+    <main class="container-fluid">
+        <div class="row">
+            <section class="col" id="section1">
+                <h2>Hic unde error nesciunt et tempore alias quasi molestiae minima.</h2>
+                <p>Quo autem illo eius. Qui esse blanditiis quia. Ducimus nulla soluta quia iusto vel dolorem alias. Vel dolores dolorum ipsam nam eum.<br>Dicta voluptatum aut quidem iure non. Est labore consequuntur aliquam rerum adipisci eos vero dolorem.<br>Totam reiciendis rerum qui aut omnis sed fuga sit assumenda. Sint vero delectus nulla rem ut facilis reprehenderit aperiam. Quia ut at porro laborum eaque qui minima optio dolores. Et adipisci molestiae voluptatem in molestiae. Sed qui ea architecto. Saepe ut recusandae.</p>
+            </section>
+            <section class="col" id="section2">
+                <h2>Quam amet dignissimos omnis.</h2>
+                <p>Velit quia adipisci et ut aut aliquam et. Aliquam eius aut iusto ipsum. Omnis laboriosam beatae et est rerum aperiam cupiditate.<br><br>Aspernatur quaerat amet qui nisi voluptas id animi corrupti itaque. Assumenda enim soluta suscipit ea ut fugiat. Dolor enim asperiores reiciendis occaecati quia deserunt dolores. Est deserunt voluptatibus nam. Impedit voluptatem vero corrupti minima dignissimos soluta. Consequuntur iusto error excepturi voluptatem voluptas ex in quis deleniti.></p>
+            </section>
+        </div>
     </main>
-    <footer>
-        <a href="https://www.google.es/"><h2>GOOGLE</h2></a>
+    <footer class="container-fluid">
+        <div class="row">
+            <a class="col" href="https://www.google.es/"><h2>GOOGLE</h2></a>
+        </div>
     </footer>
     <script src="../js/bootstrap.bundle.js"></script>
 </body>

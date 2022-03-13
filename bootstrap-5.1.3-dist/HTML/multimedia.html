@@ -6,36 +6,34 @@
     <title>Multimedia</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../CSSsimple/main.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../CSSsimple/multimediaCSS.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSSsimple/formsCSS.css'>
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-    <header>
-        <div>
-            <nav id="navBar">
-                <a href="index.html" id="pageIndex"><h3>Inicio</h3></a>
-                <a href="tablas.html" id="pageTables"><h3>Tablas</h3></a>
-                <a href="formularios.html" id="pageForms"><h3>Formulario</h3></a>
-                <a href="multimedia.html" id="pageMultimedia"><h3>Multimedia</h3></a>
-                <a href="lista.html" id="pageList"><h3>Lista</h3></a>
-            </nav>
-        </div>
+    <header class="container-fluid">
+        <nav class="row" id="navBar">
+            <a class="col" href="index.html" id="pageIndex"><h3>Inicio</h3></a>
+            <a class="col" href="tablas.html" id="pageTables"><h3>Tablas</h3></a>
+            <a class="col" href="formularios.html" id="pageForms"><h3>Formulario</h3></a>
+            <a class="col" href="multimedia.html" id="pageMultimedia"><h3>Multimedia</h3></a>
+            <a class="col" href="lista.html" id="pageList"><h3>Lista</h3></a>
+        </nav>
     </header>
-    <main>
-        <div id="containerSrc">
-            <div id="imgContainer">
-                <img src="../SOURCES/IMG/imgPC.jpg">
-            </div>
-            <div id="containerVideo">
-                <video controls>
-                    <source src="../SOURCES/VIDEOS/taking the hobbits to isengard.mp4" type="video/mp4">
-                </video>
-            </div>
+    <main class="container-fluid">
+        <div class="row" id="containerSrc">
+            <img class="col" src="../SOURCES/IMG/imgPC.jpg">
+            <video controls class="col">
+                <source src="../SOURCES/VIDEOS/taking the hobbits to isengard.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="row">
+            <iframe class="col" src="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki"></iframe>
         </div>  
-        <iframe src="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki"></iframe>
     </main>
-    <footer>
-        <a href="https://www.google.es/"><h2>GOOGLE</h2></a>
+    <footer class="container-fluid">
+        <div class="row">
+            <a class="col" href="https://www.google.es/"><h2>GOOGLE</h2></a>
+        </div>
     </footer>
     <script src="../js/bootstrap.bundle.js"></script>
 </body>
